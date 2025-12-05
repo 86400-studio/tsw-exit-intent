@@ -596,7 +596,7 @@
       '<div id="tsw-mc-card" role="form" aria-labelledby="tsw-form-title">' +
       '<div id="tsw-mc-card-inner">' +
       '<div class="tsw-icon-badge" aria-hidden="true">🇸🇬</div>' +
-      '<h3 id="tsw-form-title">Get your free Singapore Way summary before you go</h3>' +
+      '<h3 id="tsw-form-title">Get your free Singapore Way</h3>' +
       '<p class="tsw-subtitle">Enter your details and we will email you a concise, beautifully formatted summary you can keep, share, and revisit anytime.</p>' +
       '<form id="tsw-mc-form" action="' +
       MC_ACTION +
@@ -743,3 +743,4 @@
     }
   });
 })();
+
