@@ -256,9 +256,11 @@
         "display:flex;" +
         "align-items:center;" +
         "justify-content:center;" +
+        "padding:16px;" +
         "backdrop-filter:blur(10px);" +
         "-webkit-backdrop-filter:blur(10px);" +
         "animation:tswFadeIn .22s ease-out;" +
+        "overflow-y:auto;" +               // outer overlay can scroll if absolutely needed
         "}" +
         "#tsw-exit-modal{" +
         "max-width:560px;" +
@@ -268,9 +270,10 @@
         "box-sizing:border-box;" +
         "position:relative;" +
         "font-family:var(--font);" +
-        "max-height:82vh;" +
-        "overflow-y:auto;" +
+        "max-height:100%;" +
+        "overflow-y:visible;" +            // no inner scrollbar
         "background:transparent;" +
+        "animation:tswSlideUp .22s ease-out;" +
         "}" +
         "#tsw-exit-close{" +
         "position:absolute;" +
@@ -532,9 +535,11 @@
         "text-align:center;" +
         "}" +
         "#mce-error-response,#mce-success-response{display:none!important;}" +
+        // Mobile tweaks
         "@media(max-width:480px){" +
         "#tsw-exit-modal{width:94vw;max-width:360px;}" +
         "#tsw-mc-card-inner{padding:var(--space-4);}" +
+        ".tsw-icon-badge{width:38px;height:38px;font-size:19px;margin-bottom:var(--space-2);}" +
         "#tsw-mc-card h3{font-size:19px;}" +
         "#tsw-mc-card .tsw-row{gap:var(--space-2);}" +
         "#tsw-mc-card .tsw-field{gap:4px;}" +
