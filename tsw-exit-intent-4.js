@@ -571,7 +571,7 @@
       modal.innerHTML +
       '<div id="tsw-mc-card" role="form" aria-labelledby="tsw-form-title">' +
       '<div id="tsw-mc-card-inner">' +
-      '<h3 id="tsw-form-title">Get your free Singapore Way summary before you go</h3>' +
+      '<h3 id="tsw-form-title">Free Singapore Way summary</h3>' +
       '<form id="tsw-mc-form" action="' +
       MC_ACTION +
       '" method="post" novalidate>' +
@@ -613,8 +613,8 @@
       '<div class="response" id="mce-success-response"></div>' +
       '</div>' +
       '<div class="tsw-actions">' +
-      '<button type="submit" id="tsw-submit" class="tsw-btn tsw-btn-primary">Send me the free summary</button>' +
-      '<button type="button" id="tsw-decline" class="tsw-btn tsw-btn-secondary">No Thanks, Exit Now</button>' +
+      '<button type="submit" id="tsw-submit" class="tsw-btn tsw-btn-primary">Send</button>' +
+      '<button type="button" id="tsw-decline" class="tsw-btn tsw-btn-secondary">No Thanks</button>' +
       '</div>' +
       '<p class="tsw-trust">No spam. Unsubscribe in one click.</p>' +
       '<iframe id="tsw-mc-fallback" name="tsw-mc-fallback" class="visually-hidden-abs"></iframe>' +
@@ -727,3 +727,4 @@
     }
   });
 })();
+
